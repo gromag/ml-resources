@@ -1,7 +1,7 @@
 # Statistics for ML in 30 minutes
 
 
-_Written by ChatGPT under he prompt 'please create a statistics crash course content, the title "Statistics for ML in 30 minutes"'. The output has been lightly redacted._
+_Written by ChatGPT under the prompt 'Please create a statistics crash course content, the title "Statistics for ML in 30 minutes"'. The output has been lightly redacted._
 
 1. Introduction to Statistics:
     - Definition of Statistics and its importance in Machine Learning
