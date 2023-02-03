@@ -1,9 +1,3 @@
-<style>
-h1,h2,h3,h4,h5,h6 {
-    font-family: Serif;
-}
-</style>
-
 # Statistics for ML in 30 minutes
 
 1. Introduction to Statistics:
