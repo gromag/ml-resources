@@ -10,7 +10,6 @@ permalink: /statistics
 
 _Written by ChatGPT started with the prompt 'Please create a statistics crash course with title "Statistics for ML in 30 minutes"'. The output has been redacted in places but mostly the output of the model._
 
-{:toc}
 
 ## Introduction
 
