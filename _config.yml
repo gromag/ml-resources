@@ -8,4 +8,5 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-toc
 google_analytics: G-SWKB9MVLDG

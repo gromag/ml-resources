@@ -2,6 +2,7 @@
 layout: default
 title: "Statistics for ML in 30 minutes"
 permalink: /statistics
+toc: true
 ---
 
 # Statistics for ML in 30 minutes
