@@ -387,7 +387,7 @@ Here are some recommended resources for further learning in statistics:
     - Udemy's "Data Science: Statistics and Probability"
 
 1. Websites:
-    - [Khan Academy's statistics sectio](https://www.khanacademy.org/math/statistics-probability)
+    - [Khan Academy's statistics section](https://www.khanacademy.org/math/statistics-probability)
     - [OpenIntro](https://www.openintro.org/stat/textbook.php)
 
 1. Conferences and Workshops:
