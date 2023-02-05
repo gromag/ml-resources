@@ -10,6 +10,8 @@ toc: true
 
 _Written by ChatGPT started with the prompt 'Please create a statistics crash course with title "Statistics for ML in 30 minutes"'. The output has been redacted in places but mostly the output of the model._
 
+{% toc %}
+
 1. Introduction to Statistics:
     - Definition of Statistics and its importance in Machine Learning
     - Types of data: Continuous and Discrete
