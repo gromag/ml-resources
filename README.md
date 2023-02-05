@@ -1,7 +1,7 @@
 ---
 layout: default 
 title: "ML Resources"
-permalink: /ml-resources
+permalink: /
 ---
 
 # ML Resources
