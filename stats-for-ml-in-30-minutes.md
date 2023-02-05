@@ -2,7 +2,7 @@
 layout: default
 title: "Statistics for ML in 30 minutes"
 permalink: /statistics
-toc: true
+
 ---
 
 # Statistics for ML in 30 minutes
@@ -10,7 +10,7 @@ toc: true
 
 _Written by ChatGPT started with the prompt 'Please create a statistics crash course with title "Statistics for ML in 30 minutes"'. The output has been redacted in places but mostly the output of the model._
 
-{% toc %}
+{:toc}
 
 1. Introduction to Statistics:
     - Definition of Statistics and its importance in Machine Learning
@@ -417,8 +417,8 @@ Here are some recommended resources for further learning in statistics:
     - Udemy's "Data Science: Statistics and Probability"
 
 1. Websites:
-    - Khan Academy's statistics section (https://www.khanacademy.org/math/statistics-probability)
-    - OpenIntro (https://www.openintro.org/stat/textbook.php)
+    - [Khan Academy's statistics sectio](https://www.khanacademy.org/math/statistics-probability)
+    - [OpenIntro](https://www.openintro.org/stat/textbook.php)
 
 1. Conferences and Workshops:
     - Conference on Neural Information Processing Systems (NeurIPS)
@@ -431,4 +431,4 @@ Here are some recommended resources for further learning in statistics:
 These resources are a great starting point for learning statistics and its applications in machine learning. However, the best way to learn is through practice, so make sure to work on a variety of projects and apply your knowledge to real-world problems.
 
 
-
+_Written by ChatGPT started with the prompt 'Please create a statistics crash course with title "Statistics for ML in 30 minutes"'. The output has been redacted in places but mostly the output of the model._
