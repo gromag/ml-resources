@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Statistics for ML in 30 minutes"
-permalink: /statistics-for-ml-in-30-minutes
+permalink: /statistics
 ---
 
 # Statistics for ML in 30 minutes
