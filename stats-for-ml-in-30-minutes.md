@@ -12,35 +12,6 @@ _Written by ChatGPT started with the prompt 'Please create a statistics crash co
 
 {:toc}
 
-1. Introduction to Statistics:
-    - Definition of Statistics and its importance in Machine Learning
-    - Types of data: Continuous and Discrete
-    - Measures of Central Tendency: Mean, Median, Mode
-    - Measures of Variation: Range, Variance, Standard Deviation
-1. Probability:
-    - Definition of Probability
-    - Bayes' Theorem
-    - Conditional Probability
-    - Joint Probability
-    - Independent and Dependent events
-1. Hypothesis Testing:
-    - Null and Alternative Hypothesis
-    - One-sample and Two-sample tests
-    - t-test, ANOVA, Chi-Square test
-    - Type I and Type II Errors
-1. Correlation and Regression:
-    - Correlation Coefficient: Pearson and Spearman
-    - Simple Linear Regression: Model, Assumptions, Evaluation
-    - Multiple Linear Regression
-1. Exploratory Data Analysis (EDA):
-    - Univariate Analysis
-    - Bivariate Analysis
-    - Multivariate Analysis
-1. Final Thoughts:
-    - Summary of key concepts covered
-    - Importance of using appropriate statistical techniques in ML
-    - Further resources for further learning.
-
 ## Introduction
 
 ### Definition of Statistics and its importance in Machine Learning
@@ -402,7 +373,7 @@ Finally, understanding and using statistical techniques helps ML practitioners t
 
 In conclusion, using appropriate statistical techniques is critical for the success of ML projects, and is an essential component of the data science process.
 
-### Further resources for further learning.
+### Further resources for further learning
 
 Here are some recommended resources for further learning in statistics:
 
