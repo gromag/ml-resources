@@ -28,7 +28,9 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      {% include toc.html html=content %}
+      {% unless page.disable_toc %}
+        {% include toc.html html=content %}
+      {% endunless %}
       {{ content }}
 
       <footer class="site-footer">

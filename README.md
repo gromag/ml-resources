@@ -2,6 +2,7 @@
 layout: default 
 title: "Python and ML Resources"
 permalink: /
+disable_toc: true
 ---
 
 # Python and ML Resources
