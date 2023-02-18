@@ -7,7 +7,7 @@ permalink: /sqlalchemy
 
 # SQLAlchemy in 10 minutes
 
->_This document has been redacted in places but mostly the output of the GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research._
+>_This document has redacted in various places however it remains mostly the output of a GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research._
 
 Here's a quick guide to SQLAlchemy for people who are familiar with 
 relational databases and other ORM Framework.
@@ -386,8 +386,48 @@ In this example, we pass in values for both the author_id and posted_at paramete
 
 By using parameterized input in your raw SQL queries, you can help to ensure that your code is secure and free from SQL injection vulnerabilities. Just be sure to validate any user input before including it in a raw SQL query, and to use the parameterized input feature of SQLAlchemy whenever possible.
 
+## Fetching data efficiently using Generators
+
+
+In SQLAlchemy, you can use a generator to efficiently fetch all records from a table in chunks, rather than fetching all records at once. This can be especially useful when working with large tables that may not fit into memory all at once.
+
+Here's an example of how to fetch all records from a table using a generator in SQLAlchemy:
+
+```python
+from sqlalchemy.orm import sessionmaker
+from typing import Generator, TypeVar
+
+Session = sessionmaker(bind=engine)
+session = Session()
+
+T = TypeVar('T')
+
+def get_records_in_chunks(query) -> Generator[T, None, None]:
+    offset = 0
+    while True:
+        chunk = query.offset(offset).limit(chunk_size).all()
+        if not chunk:
+            return
+        offset += chunk_size
+        for record in chunk:
+            yield record
+
+query = session.query(MyTable)
+
+for record in get_records_in_chunks(query):
+    # Process each record here
+
+```
+
+In this example, we define a generator function called `get_records_in_chunks()` that takes a SQLAlchemy query object and a chunk_size parameter. The function uses the `offset()` and `limit()` methods of the query object to fetch records in chunks of `chunk_size` at a time. The function then yields each record in the chunk, and continues fetching more records until there are no more records to fetch.
+
+We then define a SQLAlchemy query object called query to query the desired table, and pass this object to `get_records_in_chunks()` to fetch records in chunks. We can then process each record in the table by iterating over the generator returned by `get_records_in_chunks()`.
+
+By using a generator to fetch records in chunks, we can reduce memory usage and improve performance when working with large tables in SQLAlchemy.
+
+
 ## Disclaimer and Acknowledgement
 
-This document has been redacted in places but mostly the output of the GPT 3 model. 
+This document has redacted in various places however it remains mostly the output of a GPT 3 model.
 
 Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research.
