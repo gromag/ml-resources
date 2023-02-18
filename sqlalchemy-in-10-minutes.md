@@ -7,7 +7,7 @@ permalink: /sqlalchemy
 
 # SQLAlchemy in 10 minutes
 
->_This document has been redacted in places but mostly the output of the GPT 3 model. Large Language Models like GPT 3 often hallucinate and might give incorrect information, please use your own judgment and take this as an input to do further research._
+>_This document has been redacted in places but mostly the output of the GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research._
 
 Here's a quick guide to SQLAlchemy for people who are familiar with 
 relational databases and other ORM Framework.
@@ -386,6 +386,6 @@ In this example, we pass in values for both the author_id and posted_at paramete
 
 By using parameterized input in your raw SQL queries, you can help to ensure that your code is secure and free from SQL injection vulnerabilities. Just be sure to validate any user input before including it in a raw SQL query, and to use the parameterized input feature of SQLAlchemy whenever possible.
 
-## Acknowledgement
+## Disclaimer and Acknowledgement
 
->_This document has been redacted in places but mostly the output of the GPT 3 model. Large Language Models like GPT 3 often hallucinate and might give incorrect information, please use your own judgment and take this as an input to do further research._
+>_This document has been redacted in places but mostly the output of the GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research._
