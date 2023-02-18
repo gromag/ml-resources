@@ -388,4 +388,6 @@ By using parameterized input in your raw SQL queries, you can help to ensure tha
 
 ## Disclaimer and Acknowledgement
 
->_This document has been redacted in places but mostly the output of the GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research._
+This document has been redacted in places but mostly the output of the GPT 3 model. 
+
+Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research.
