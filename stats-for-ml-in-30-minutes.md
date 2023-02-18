@@ -7,9 +7,7 @@ permalink: /statistics
 
 # Statistics for ML in 30 minutes
 
-
-_Written by ChatGPT started with the prompt 'Please create a statistics crash course with title "Statistics for ML in 30 minutes"'. The output has been redacted in places but mostly the output of the model._
-
+>_This document has been redacted in places but mostly the output of the GPT 3 model. Large Language Models like GPT 3 often hallucinate and might give incorrect information, please use your own judgement and take this as an input to do further research._
 
 ## Introduction
 
@@ -401,4 +399,6 @@ Here are some recommended resources for further learning in statistics:
 These resources are a great starting point for learning statistics and its applications in machine learning. However, the best way to learn is through practice, so make sure to work on a variety of projects and apply your knowledge to real-world problems.
 
 
-_Written by ChatGPT started with the prompt 'Please create a statistics crash course with title "Statistics for ML in 30 minutes"'. The output has been redacted in places but mostly the output of the model._
+## Acknowledgement
+
+>_This document has been redacted in places but mostly the output of the GPT 3 model. Large Language Models like GPT 3 often hallucinate and might give incorrect information, please use your own judgment and take this as an input to do further research._
