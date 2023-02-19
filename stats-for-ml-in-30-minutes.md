@@ -7,7 +7,7 @@ permalink: /statistics
 
 # Statistics for ML in 30 minutes
 
->_This document has redacted in various places however it remains mostly the output of a GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgement and take this as an input to do further research._
+>_This document has been redacted in various places, however it remains mostly the output of a GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgement and take this as an input to do further research._
 
 ## Introduction
 
@@ -401,5 +401,5 @@ These resources are a great starting point for learning statistics and its appli
 
 ## Disclaimer and Acknowledgement
 
-This document has redacted in various places however it remains mostly the output of a GPT 3 model.
+This document has been redacted in various places, however it remains mostly the output of a GPT 3 model.
 Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research.

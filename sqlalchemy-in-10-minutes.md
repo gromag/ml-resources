@@ -7,7 +7,7 @@ permalink: /sqlalchemy
 
 # SQLAlchemy in 10 minutes
 
->_This document has redacted in various places however it remains mostly the output of a GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research._
+>_This document has been redacted in various places, however it remains mostly the output of a GPT 3 model. Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research._
 
 Here's a quick guide to SQLAlchemy for people who are familiar with 
 relational databases and other ORM Framework.
@@ -428,6 +428,6 @@ By using a generator to fetch records in chunks, we can reduce memory usage and 
 
 ## Disclaimer and Acknowledgement
 
-This document has redacted in various places however it remains mostly the output of a GPT 3 model.
+This document has been redacted in various places, however it remains mostly the output of a GPT 3 model.
 
 Large Language Models like GPT 3 might hallucinate and give give incorrect information, please use your own judgment and take this as an input to do further research.
